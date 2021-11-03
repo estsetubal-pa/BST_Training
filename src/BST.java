@@ -111,7 +111,7 @@ public class BST<T extends Comparable<T>> {
         for(T elem : elements()) {
             BSTNode node = searchNodeWithElement(elem, this.root);
 
-            if( isInternal(node) ) {
+            if( isExternal(node) ) {
                 col.add(elem);
             }
         }
@@ -126,7 +126,7 @@ public class BST<T extends Comparable<T>> {
         for(T elem : elements()) {
             BSTNode node = searchNodeWithElement(elem, this.root);
 
-            if( isExternal(node) ) {
+            if( isInternal(node) ) {
                 col.add(elem);
             }
         }
