@@ -30,6 +30,8 @@ public class Main {
         System.out.println("External elements = " + bst.externalElements()); //expected (any order): {B,H,K,P,S,X}
         System.out.println("Internal elements = " + bst.internalElements()); //expected (any order): {L,R,F,J,O,T}
 
+        System.out.println("Path to root from H = " + bst.pathToRoot("H")); //expected (this order): {H,J,F,L,M}
+
         System.out.println("------------------- AFTER REMOVING L and M -----------------------");
 
         System.out.println(bst); //see bst structure
@@ -45,6 +47,8 @@ public class Main {
         System.out.println("External elements = " + bst.externalElements()); //expected (any order): {??}
         System.out.println("Internal elements = " + bst.internalElements()); //expected (any order): {??}
 
+        System.out.println("Path to root from H = " + bst.pathToRoot("H")); //expected (this order): {??}
+
         System.out.println("------------------- AFTER CLEAR  -----------------------");
 
         System.out.println(bst); //see bst structure
@@ -59,6 +63,8 @@ public class Main {
 
         System.out.println("External elements = " + bst.externalElements()); //expected (any order): { empty }
         System.out.println("Internal elements = " + bst.internalElements()); //expected (any order): { empty }
+
+        System.out.println("Path to root from H = " + bst.pathToRoot("H")); //expected (this order): { empty }
 
     }
 }
