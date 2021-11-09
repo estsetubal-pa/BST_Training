@@ -90,6 +90,7 @@ public class BST<T extends Comparable<T>> {
                 } else {
                     parent.right = subTree;
                 }
+                subTree.parent = parent;
             }
         }
     }
