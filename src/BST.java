@@ -1,4 +1,4 @@
-import sun.reflect.generics.reflectiveObjects.NotImplementedException;
+
 
 import java.util.*;
 
@@ -25,7 +25,7 @@ public class BST<T extends Comparable<T>> {
      */
     public boolean contains(T elem) {
         //TODO:
-        throw new NotImplementedException();
+        throw new UnsupportedOperationException("This method is not implemented yet.");
     }
 
     /**
@@ -101,7 +101,7 @@ public class BST<T extends Comparable<T>> {
      */
     public Collection<T> elements() {
         //TODO:
-        throw new NotImplementedException();
+        throw new UnsupportedOperationException("This method is not implemented yet.");
     }
 
     /**
@@ -141,7 +141,7 @@ public class BST<T extends Comparable<T>> {
      */
     public Collection<T> pathToRoot(T elem) {
         //TODO:
-        throw new NotImplementedException();
+        throw new UnsupportedOperationException("This method is not implemented yet.");
     }
 
     /**
@@ -158,7 +158,7 @@ public class BST<T extends Comparable<T>> {
      */
     public int height() {
         //TODO:
-        throw new NotImplementedException();
+        throw new UnsupportedOperationException("This method is not implemented yet.");
     }
 
     /**
@@ -167,7 +167,7 @@ public class BST<T extends Comparable<T>> {
      */
     public boolean isEmpty() {
         //TODO:
-        throw new NotImplementedException();
+        throw new UnsupportedOperationException("This method is not implemented yet.");
     }
 
     /**
@@ -175,7 +175,7 @@ public class BST<T extends Comparable<T>> {
      */
     public void clear() {
         //TODO:
-        throw new NotImplementedException();
+        throw new UnsupportedOperationException("This method is not implemented yet.");
     }
 
     @Override
@@ -204,12 +204,12 @@ public class BST<T extends Comparable<T>> {
 
     private boolean isInternal(BSTNode node) {
         //TODO:
-        throw new NotImplementedException();
+        throw new UnsupportedOperationException("This method is not implemented yet.");
     }
 
     private boolean isExternal(BSTNode node) {
         //TODO:
-        throw new NotImplementedException();
+        throw new UnsupportedOperationException("This method is not implemented yet.");
     }
 
     private int size(BSTNode treeRoot) {
